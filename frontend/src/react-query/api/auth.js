@@ -5,15 +5,10 @@ export async function  login(data) {
         const response =    await unAuthAxios.post('/auth/login' , data)
      
 
-        // if(response.data.success)  return response.data.data;
+ 
         console.log(response.data)
         console.log(response.data.detail)
         localStorage.setItem("profile" , JSON.stringify(response.data.detail))
-        
-        // else{
-        //     console.log("Wrong email id or password")
-        //     return null;    
-        // }
     
 
   return response.data;
