@@ -11,7 +11,7 @@ const Properties = () => {
     const navigate = useNavigate();
 
     const handleViewDetails = (property) => {
-       console.log(property)
+      //  console.log(property)
         const viewedProperties = JSON.parse(localStorage.getItem('viewedProperties')) || [];
 
         // Add the new property to the array

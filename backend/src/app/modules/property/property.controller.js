@@ -4,8 +4,8 @@ import { properties } from "../../Shared/data.js";
  
   const recommnend =(req ,res)=>{
     const viewedProperties =   req.body;
-    console.log(req.body)
-    console.log(viewedProperties)
+    // console.log(req.body)
+    // console.log(viewedProperties)
     if (!viewedProperties || viewedProperties.length === 0) {
       return res.json([]); // No recommendations if no properties are viewed
     }

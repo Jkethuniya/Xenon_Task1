@@ -6,8 +6,8 @@ export async function  login(data) {
      
 
  
-        console.log(response.data)
-        console.log(response.data.detail)
+        // console.log(response.data)
+        // console.log(response.data.detail)
         localStorage.setItem("profile" , JSON.stringify(response.data.detail))
     
 
@@ -17,6 +17,6 @@ export async function  login(data) {
 
 export async function register(data) {
   const response =    await unAuthAxios.post('/auth/register' , data)
-  console.log(response.data.data)
+  // console.log(response.data.data)
 
 }

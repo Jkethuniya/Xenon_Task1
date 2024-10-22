@@ -5,6 +5,6 @@ const URL = "/recommend"
 export const recommend = async (data)=>{
 
     const response   =await  authAxios.post(`${URL}/recommendations` ,  data);
-    console.log(response)
+    // console.log(response)
 return response.data;
 }

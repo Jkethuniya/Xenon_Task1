@@ -52,7 +52,7 @@ response =     jwt.sign(data
         { expiresIn: process.env.ACCESS_TOKEN_EXPIRE })
 })
 
-console.log(response)
+// console.log(response)
 return response;
 
 

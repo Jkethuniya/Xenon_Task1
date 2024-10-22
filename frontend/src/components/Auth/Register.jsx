@@ -15,12 +15,12 @@ const navigate = useNavigate()
   const mutation = useMutation({ mutationFn: signup,   
     onSuccess: (data, variables, context) => {
           setLoading(false)
-          console.log("regitered")
+          // console.log("regitered")
     toast.success("Successfully Register")
       navigate("/login")
     },
     onError: (error, variables, context) => {
- console.log(error.response.data.message)
+//  console.log(error.response.data.message)
  toast.error(error.response.data.message)
     },
     onSettled: (data, error, variables, context) => {

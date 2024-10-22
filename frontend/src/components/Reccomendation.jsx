@@ -31,9 +31,9 @@ const Recommendations = ({ recommended }) => {
         const localproper = localStorage.getItem("viewedProperties");
         const data = await recommend(localproper);
         setRecommendations(data);
-        console.log(recommendations);
+        // console.log(recommendations);
       } catch (e) {
-        console.log(e);
+        // console.log(e);
       }
       setCalled(false);
     }

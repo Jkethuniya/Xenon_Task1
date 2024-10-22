@@ -4,7 +4,7 @@ import "./Profile.css"; // Importing custom CSS
 import Header from "./Header";
 const Profile = () => {
   const user = JSON.parse(localStorage.getItem("profile"));
-  console.log(user);
+  // console.log(user);
 
   return (
 

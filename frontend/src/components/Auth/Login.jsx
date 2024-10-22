@@ -22,14 +22,14 @@ function Login() {
     mutationFn: login,
     onSuccess: (data, variables, context) => {
       setLoading(false);
-      console.log(data);
+      // console.log(data);
       setUserInfo(data.token);
 
       toast.success("Successfully login");
       data.role === "Admin" ? navigate("/admin") : navigate("/");
     },
     onError: (error, variables, context) => {
-      console.log(error.response.data.message);
+      // console.log(error.response.data.message);
       toast.error(error.response.data.message);
     },
     onSettled: (data, error, variables, context) => {},
