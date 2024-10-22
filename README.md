@@ -40,7 +40,7 @@ With the integration of advanced AI-driven recommendation systems, users are pre
 ## Screenshots
 
 ### Login Page
-![Login Page](https://drive.google.com/file/d/1jcbf4JJA7y-DAbTAHaTrqXuM5jJdrHtJ/view?usp=sharing)
+![Login Page]([https://drive.google.com/file/d/1jcbf4JJA7y-DAbTAHaTrqXuM5jJdrHtJ/view?usp=sharing](https://drive.google.com/file/d/1jcbf4JJA7y-DAbTAHaTrqXuM5jJdrHtJ/view?usp=sharing))
 Simple and secure login page to access user accounts and customized property searches.
 
 ### Signup Page
