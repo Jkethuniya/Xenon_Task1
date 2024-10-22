@@ -11,11 +11,11 @@ export const app = express();
 
 app.use(
   cors({
-    origin: "https://xenon-task1-ten.vercel.app",
+    origin: ["http://localhost:5173", "https://xenon-task1-ten.vercel.app"], // Allow multiple origins
+    methods: "GET,POST,OPTIONS",
+    credentials: true, // Allow credentials (like cookies)
     optionsSuccessStatus: 200,
     preflightContinue: false,
-    methods: "GET,POST,OPTIONS",
-    credentials: true,
   })
 );
 app.use(express.json());
