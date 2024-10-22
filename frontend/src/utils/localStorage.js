@@ -1,5 +1,5 @@
 export const setUserInfo = (accessToken) =>{
-    console.log(accessToken)
+    // console.log(accessToken)
     return setLocalStorage('token',accessToken)
 }
 
